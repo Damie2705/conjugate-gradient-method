@@ -67,7 +67,7 @@ def is_update_moment(iterations: int) -> bool:                           #  "о�
 while ((gradient[0][0]**2) + (gradient[1][0]**2))**0.5 > eps:                       #  критерий остановки 
     current_point = rel_seq[iter - 1]
 
-    def psi(xi):                                                     # нахождение х_i с помощью минимизации 
+    def psi(xi):                                                     # нахождение хi с помощью минимизации 
         x = current_point[0][0] + p[0][0]*abs(xi)
         y = current_point[1][0] + p[1][0]*abs(xi)
         return f([x, y])
