@@ -39,7 +39,7 @@ $$x^i = x^{i - 1} + \xi^i p^i; \text{ } i \in \mathbb{N}; \text{ } \xi > 0.$$
 
 $$\psi^i(\xi) = f(x^{i-1} + \xi p^i); \text{ } i \in \mathbb{N}; \text{ } \xi > 0.$$
 
-В качестве критерия останова выбрано условие:
+В качестве критерия остановки выбрано условие:
 
 $$\left| \alpha^i \right| < \epsilon; \text{ } i \in \mathbb{N}; \text{ } \epsilon > 0,$$
 
